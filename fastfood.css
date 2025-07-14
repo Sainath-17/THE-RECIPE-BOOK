@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(170, 215, 19);
+  }
+  
+  /* Heading styles */
+  .heading {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 900px;
+    padding-top: 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  
+  /* Box styles */
+  .box {
+    flex: 0 0 calc(50% - 3.5cm); /* 50% width with 3.5cm margin on each side */
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 50px; /* Add margin to the right side of the box */
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box; /* include padding and border in the box sizing */
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Image name styles */
+  .image-name {
+    font-size: 1.2em;
+    color: rgb(7, 7, 5);
+    margin: 0;
+  }
+  
+  /* Box button styles */
+  .box-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(223, 8, 8);
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .box-btn:hover {
+    background-color: #b0abab;
+  }
